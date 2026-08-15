@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+
+# 打包产物
+release/
+dist/
+out/
+
+# 捆绑的第三方运行时（体积大、非本项目源码，见 README「准备 runtime」）
+runtime/
+
+# 缓存
+.cache/
+.electron-cache/
+.npm-cache/
+.electron-builder-cache/
+
+# 敏感配置与凭据
+.env
+.env.*
+*.local
+credentials*
+*.pem
+*.key
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
