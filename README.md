@@ -2,6 +2,12 @@
 
 一个**自包含**的 Electron 桌面应用，把 DeepSeek Harness Web GUI 装进独立桌面窗口。安装包内置了 portable Node 运行时与完整的 dsh 运行时，对方机器**无需预装 Node 或 dsh**，装完即可使用。
 
+## 下载与使用
+
+成品安装包见 **[Releases](../../releases)** 页面，下载 `DeepSeekHarness-Setup-0.1.0.exe` 双击安装即可（内置 Node 与 dsh 运行时，无需预装任何环境，自带桌面/开始菜单快捷方式与卸载程序）。
+
+> **使用前需要自备 DeepSeek API Key**：首次打开后，在界面的「模型设置」里填入自己的 key（或设置环境变量 `DEEPSEEK_API_KEY`）。应用不自带 key。
+
 ## 功能
 
 - 独立窗口加载本地 Web GUI，标题跟随当前会话
